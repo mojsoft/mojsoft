@@ -26,7 +26,7 @@ file_name = 'List.xlsx'
 products = load_products(file_name)
 
 async def start(update: Update, context: CallbackContext) -> None:
-    await update.message.reply_text('ربات AguPart  جهت جستجو محصولات و، اتحاد طلایی آسیا')
+    await update.message.reply_text('ربات AguPart جهت جستجو محصولات اتحاد طلایی آسیا')
 
 async def search(update: Update, context: CallbackContext) -> None:
     query = update.message.text.lower()
